@@ -1,0 +1,16 @@
+{
+    "watch": [
+        "public",
+        "src",
+        "views",
+        "types"
+    ],
+    "ignore": [
+        "build/**/*",
+        "node_modules/**/*",
+        "test/**/*",
+        "coverage/**/*"
+    ],
+    "ext": "ts,html,css",
+    "exec": "ts-node -r dotenv/config ./src/server.ts"
+}
